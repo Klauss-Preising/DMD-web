@@ -1,3 +1,5 @@
+
+/* Body  formating */
 body{
     background-color: #f4f4f4;
     color: #555555;
@@ -7,12 +9,14 @@ body{
     margin: 0;
 }
 
+/* container to contain all the content */
 .container{
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+/* header */
 #main-header{
     background-image: url("../images/fire-abstract-1080x72072.jpg");
     background-color: #042cc2;
@@ -24,6 +28,7 @@ body{
     list-style: none;
 }
 
+/* Navbar */
 #navbar{
     background-color: #333333;
     color: #fff;
@@ -45,12 +50,15 @@ body{
     padding-right: 15px;
 }
 
+
+/* Meat of the website */
 #main{
     float: left;
     width: 70%;
     padding: 0 10%;
     box-sizing: border-box;
 }
+
 
 #sidebar{
     float: right;
@@ -59,6 +67,20 @@ body{
     box-sizing: border-box;
 }
 
+
+@media(max-width:600px){
+    #main{
+        width: 70%;
+        float:none;
+    }
+
+    #sidebar{
+        width: 30%;
+        float: none;
+    }
+}
+
+/* Pictures */
 #klauss{
     width: 282px;
     height: 400px;
@@ -99,17 +121,5 @@ body{
 #overwatch{
     width: 315px;
     height: 300px;
-}
-
-@media(max-width:600px){
-    #main{
-        width: 70%;
-        float:none;
-    }
-
-    #sidebar{
-        width: 30%;
-        float: none;
-    }
 }
 
