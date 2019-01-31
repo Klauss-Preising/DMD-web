@@ -17,13 +17,13 @@ body{
 }
 
 /* header */
-#main-header{
+#header{
     background-image: url("../images/fire-abstract-1080x72072.jpg");
     background-color: #042cc2;
     color: #fff;
 }
 
-#main-header ul{
+#header ul{
     padding: 0;
     list-style: none;
 }
